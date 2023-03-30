@@ -72,13 +72,10 @@ const Navbar = () => {
               <Link href='/'>About</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#skills'>Skills</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#contact'>Contact</Link>
+              <Link href='/#skills'>Skills</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -139,63 +136,17 @@ const Navbar = () => {
                   About
                 </li>
               </Link>
-              <Link href='/#skills'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Skills
-                </li>
-              </Link>
               <Link href='/#projects'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Projects
                 </li>
               </Link>
-              <Link href='/#contact'>
+              <Link href='/#skills'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Contact
+                  Skills
                 </li>
               </Link>
             </ul>
-            <div className='pt-40'>
-              <p className='uppercase tracking-widest text-[#5651e5]'>
-                Let&#39;s Connect
-              </p>
-              <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaLinkedinIn />
-                  </div>
-                </a>
-                <a
-                  href='https://github.com/fireclint'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaGithub />
-                  </div>
-                </a>
-                <Link href='/#contact'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <AiOutlineMail />
-                  </div>
-                </Link>
-                <Link href='/resume'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <BsFillPersonLinesFill />
-                  </div>
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </div>

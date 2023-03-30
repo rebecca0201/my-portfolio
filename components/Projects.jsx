@@ -17,19 +17,16 @@ const Projects = () => {
             title='Recipe Book'
             backgroundImg={recipeImg}
             projectUrl='/recipe-book'
-            tech='Next.js'
           />
           <ProjectItem
             title='Trading Bot'
             backgroundImg={tradeImg}
             projectUrl='/trading-bot'
-            tech='Python'
           />
           <ProjectItem
             title='Game-Playing Agent'
             backgroundImg={gameImg}
             projectUrl='/game-playing-agent'
-            tech='Python'
           />
         </div>
       </div>
