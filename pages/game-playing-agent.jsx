@@ -23,13 +23,13 @@ const game = () => {
           Cachex Game-Playing Agent is a Python program that excels in playing the Cachex 
           game, a variant of the Hex game that allows players to capture opponent pieces.
           <br /> <br />
-          Cachex Game-Playing Agent's significant strengths lie in its strategic approach 
+          Cachex Game-Playing Agent&apos;s significant strengths lie in its strategic approach 
           to move exploration, which enables it to consider as many possible moves as 
           possible and make optimal decisions within the time limit. This is achieved 
           through its utilization of the Minimax algorithm with Alpha-Beta pruning that 
           enables the agent to search the game tree while discarding unnecessary branches.
           <br /> <br />
-          Additionally, Cachex Game-Playing Agent's efficiency is further improved through 
+          Additionally, Cachex Game-Playing Agent&apos;s efficiency is further improved through 
           its ability to quickly identify instant winning and losing positions and 
           strategically explore move orders. It prioritizes those moves that are most likely 
           to lead to victory, thereby making alpha-beta pruning more effective. As a result, 

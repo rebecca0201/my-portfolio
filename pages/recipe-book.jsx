@@ -25,7 +25,7 @@ const recipe = () => {
           Google account or email address and access a personalized dashboard to manage their recipes 
           and profile information.
           <br /> <br />
-          Recipe Book's key feature is its recipe management functionality. Users can easily add new 
+          Recipe Book&apos;s key feature is its recipe management functionality. Users can easily add new 
           recipes to their collection, complete with photos, ingredients, and step-by-step instructions. 
           Recipes are stored in Cloud Firestore, and recipe images are stored in Cloud Storage. Users 
           can edit or delete recipes at any time and organize them with custom tags, making it easy to 
@@ -34,7 +34,7 @@ const recipe = () => {
           Our team followed Agile development methodology and held weekly internal meetings to ensure 
           effective communication and collaboration among team members. We also had weekly stand-up 
           meetings with our supervisor to report progress and discuss any issues or roadblocks. 
-          Additionally, we had monthly meetings with the client to provide updates on the project's 
+          Additionally, we had monthly meetings with the client to provide updates on the project&apos;s 
           status and receive feedback. Through this process, we were able to efficiently develop Recipe 
           Book, meeting expectations and timelines.
         </p>
