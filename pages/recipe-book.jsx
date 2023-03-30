@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
+import recipeImg from '../public/assets/projects/recipe.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const property = () => {
+const recipe = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const property = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={propertyImg}
+          src={recipeImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finders</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Recipe Book</h2>
+          <h3>Aug 2022 - Oct 2022</h3>
         </div>
       </div>
 
@@ -27,24 +27,36 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            Recipe Book is a Next.js web application that simplifies recipe management for home cooks. 
+            With robust authentication and authorization functionality using Firebase Authentication, 
+            Recipe Book ensures user privacy and security. Users can sign up for an account using their 
+            Google account or email address and access a personalized dashboard to manage their recipes 
+            and profile information.
+          </p>
+          <p>
+            Recipe Book's key feature is its recipe management functionality. Users can easily add new 
+            recipes to their collection, complete with photos, ingredients, and step-by-step instructions. 
+            Recipes are stored in Cloud Firestore, and recipe images are stored in Cloud Storage. Users 
+            can edit or delete recipes at any time and organize them with custom tags, making it easy to 
+            find the recipe they need.
+          </p>
+          <p>
+            Our team followed Agile development methodology and held weekly internal meetings to ensure 
+            effective communication and collaboration among team members. We also had weekly stand-up 
+            meetings with our supervisor to report progress and discuss any issues or roadblocks. 
+            Additionally, we had monthly meetings with the client to provide updates on the project's 
+            status and receive feedback. Through this process, we were able to efficiently develop Recipe 
+            Book, meeting expectations and timelines.
           </p>
           <a
-            href='https://github.com/fireclint/property-finder'
+            href='https://github.com/haozoo/recipe-book'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://property-finder-development.web.app/'
+            href='https://re-cipe.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -56,22 +68,13 @@ const property = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> Next.Js
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Tailwind
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
               </p>
             </div>
           </div>
@@ -84,4 +87,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default recipe;
