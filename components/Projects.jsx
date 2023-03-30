@@ -1,6 +1,6 @@
 import React from 'react';
 import recipeImg from '../public/assets/projects/recipe.png';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
+import tradeImg from '../public/assets/projects/trade.png';
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
@@ -21,11 +21,10 @@ const Projects = () => {
             tech='Next.js'
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
-
+            title='Trading Bot'
+            backgroundImg={tradeImg}
+            projectUrl='/trading-bot'
+            tech='Python'
           />
           <ProjectItem
             title='Netflix App'
