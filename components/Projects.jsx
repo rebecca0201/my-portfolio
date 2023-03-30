@@ -1,8 +1,7 @@
 import React from 'react';
 import recipeImg from '../public/assets/projects/recipe.png';
 import tradeImg from '../public/assets/projects/trade.png';
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import gameImg from '../public/assets/projects/game.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -27,18 +26,10 @@ const Projects = () => {
             tech='Python'
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
-          />
-          <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
+            title='Game-Playing Agent'
+            backgroundImg={gameImg}
+            projectUrl='/game-playing-agent'
+            tech='Python'
           />
         </div>
       </div>
