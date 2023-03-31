@@ -12,8 +12,16 @@ const game = () => {
       </div>
 
       <div className='max-w-[1240px] mx-auto p-2 gap-8 py-8'>
-        <div className='w-full md:w-2/3 mx-4 float-left'>
-          <video className='w-full p-2' src='/assets/projects/game.mp4' controls></video>
+        <div className='w-full md:w-2/3 mx-4 md:float-left'>
+          <div className='aspect-video'>
+            <iframe
+              className='w-full h-full'
+              src='https://www.youtube.com/embed/AdG1UJAE53Q'
+              frameBorder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+              allowFullScreen
+            />
+          </div>
           <p className='text-[#5651e5] p-2'>
             This video shows the gameplay between the Cachex Game-Playing Agent playing as 
             blue, and the Monte Carlo Tree Search opponent playing as red.

@@ -12,7 +12,15 @@ const recipe = () => {
 
       <div className='max-w-[1240px] mx-auto p-2 gap-8 py-8'>
         <div className='w-full md:w-2/3 mx-4 md:float-left'>
-          <video className='w-full p-2' src='/assets/projects/recipe.mp4' controls></video>
+          <div className='aspect-video'>
+            <iframe
+              className='w-full h-full'
+              src='https://www.youtube.com/embed/DJuU73PIHRY'
+              frameBorder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+              allowFullScreen
+            />
+          </div>
           <p className='text-[#5651e5] p-2'>
             This video demonstrates how to sign up for an account using email address, filter recipes 
             by tags, and add new recipes to collection using Recipe Book.

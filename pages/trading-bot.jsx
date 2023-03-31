@@ -11,8 +11,16 @@ const trade = () => {
       </div>
 
       <div className='max-w-[1240px] mx-auto p-2 gap-8 py-8'>
-        <div className='w-full md:w-2/3 mx-4 float-left'>
-          <video className='w-full p-2' src='/assets/projects/trade.mp4' controls></video>
+        <div className='w-full md:w-2/3 mx-4 md:float-left'>
+          <div className='aspect-video'>
+            <iframe
+              className='w-full h-full'
+              src='https://www.youtube.com/embed/FZc_TCQOfcU'
+              frameBorder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+              allowFullScreen
+            />
+          </div>
           <p className='text-[#5651e5] p-2'>
             This video showcases how the bot significantly improves portfolio performance through automated 
             trade executions, starting with an initial portfolio performance of 106.63 and ending with a 

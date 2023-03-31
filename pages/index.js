@@ -16,12 +16,12 @@ export default function Home() {
       <footer className="bg-gray-200 py-4">
         <div className="container mx-auto px-4">
           <p className="text-gray-600 text-center">
-            This website was created with the 
-            <a href="https://github.com/fireclint/portfolio-nextjs">portfolio-nextjs template</a> 
+            This website was created with 
+            the <a href="https://github.com/fireclint/portfolio-nextjs">portfolio-nextjs</a> template 
             created by <a href="https://github.com/fireclint">fireclint</a>.
             <br />
-            The icons used in the skills section were created by 
-            <a href="https://icons8.com">icons8</a>.
+            The icons used in the skills section were 
+            created by <a href="https://icons8.com">icons8</a>.
             <br />
             Thank you to fireclint and icons8 for providing these valuable resources!
           </p>
