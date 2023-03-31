@@ -28,8 +28,9 @@ const game = () => {
           </p>
         </div>
         <p className='p-2'>
-          Cachex Game-Playing Agent is a Python program that excels in playing the Cachex 
-          game, a variant of the Hex game that allows players to capture opponent pieces.
+          Cachex Game-Playing Agent is a Python program that excels in playing 
+          the <a className='underline cursor-pointer' href='/assets/projects/Cachex Rules.pdf' download>Cachex game</a>, 
+          a variant of the Hex game that allows players to capture opponent pieces.
           <br /> <br />
           Cachex Game-Playing Agent&apos;s significant strengths lie in its strategic approach 
           to move exploration, which enables it to consider as many possible moves as 

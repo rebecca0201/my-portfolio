@@ -23,13 +23,14 @@ const trade = () => {
           </div>
           <p className='text-[#5651e5] p-2'>
             This video showcases how the bot significantly improves portfolio performance through automated 
-            trade executions, starting with an initial portfolio performance of 106.63 and ending with a 
-            portfolio performance of 120.21.
+            trade executions, starting with an initial performance of 106 and ending with a performance of 120.
           </p>
         </div>
         <p className='p-2'>
-          CAPM Trading Bot is a Python program that optimizes portfolio performance on the FlexEMarkets 
-          platform using the Capital Asset Pricing Model.
+          CAPM Trading Bot is a Python program that
+          optimizes <a className='underline cursor-pointer' href='/assets/projects/Trading Setting.pdf' download>
+            portfolio performance
+          </a> on the FlexEMarkets platform using the Capital Asset Pricing Model.
           <br /> <br />
           CAPM Trading Bot operates in multiple markets simultaneously, continually analyzing the order 
           book to identify profitable buying and selling opportunities. Its reactive and proactive trading 
