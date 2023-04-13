@@ -46,20 +46,6 @@ const recipe = () => {
           status and receive feedback. Through this process, we were able to efficiently develop Recipe 
           Book, meeting expectations and timelines.
         </p>
-        <a
-          href='https://github.com/haozoo/recipe-book'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-        </a>
-        <a
-          href='https://re-cipe.vercel.app/'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <button className='px-8 py-2 mt-4'>Demo</button>
-        </a>
       </div>
     </div>
   );
