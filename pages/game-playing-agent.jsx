@@ -23,8 +23,8 @@ const game = () => {
             />
           </div>
           <p className='text-[#5651e5] p-2'>
-            This video shows the gameplay between the Cachex Game-Playing Agent playing as 
-            blue, and the Monte Carlo Tree Search opponent playing as red.
+            This video shows the gameplay between the Cachex Game-Playing Agent playing as blue 
+            and the Monte Carlo Tree Search opponent playing as red.
           </p>
         </div>
         <p className='p-2'>
@@ -41,7 +41,7 @@ const game = () => {
           Additionally, Cachex Game-Playing Agent&apos;s efficiency is further improved through 
           its ability to quickly identify instant winning and losing positions and 
           strategically explore move orders. It prioritizes those moves that are most likely 
-          to lead to victory, thereby making alpha-beta pruning more effective. As a result, 
+          to lead to victory, thereby making Alpha-Beta pruning more effective. As a result, 
           Cachex Game-Playing Agent achieves an average win rate of 85% against a variety of 
           strategies.
         </p>

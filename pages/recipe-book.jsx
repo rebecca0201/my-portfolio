@@ -22,8 +22,7 @@ const recipe = () => {
             />
           </div>
           <p className='text-[#5651e5] p-2'>
-            This video demonstrates how to sign up for an account using email address, filter recipes 
-            by tags, and add new recipes to collection using Recipe Book.
+            This video demonstrates how to sign up for an account, filter recipes by tags, and add new recipes.
           </p>
         </div>
         <p className='p-2'>
@@ -35,8 +34,7 @@ const recipe = () => {
           <br /> <br />
           Recipe Book&apos;s key feature is its recipe management functionality. Users can easily add new 
           recipes to their collection, complete with photos, ingredients, and step-by-step instructions. 
-          Recipes are stored in Cloud Firestore, and recipe images are stored in Cloud Storage. Users 
-          can edit or delete recipes at any time and organize them with custom tags, making it easy to 
+          Users can edit or delete recipes at any time and organize them with custom tags, making it easy to 
           find the recipe they need.
           <br /> <br />
           Our team followed Agile development methodology and held weekly internal meetings to ensure 

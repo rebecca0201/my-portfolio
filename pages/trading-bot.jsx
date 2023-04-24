@@ -22,8 +22,7 @@ const trade = () => {
             />
           </div>
           <p className='text-[#5651e5] p-2'>
-            This video showcases how the bot significantly improves portfolio performance through automated 
-            trade executions, starting with an initial performance of 106 and ending with a performance of 120.
+            This video showcases how the bot improves the portfolio performance from 106 to 120 within 15 seconds.
           </p>
         </div>
         <p className='p-2'>
@@ -38,9 +37,9 @@ const trade = () => {
           dynamically adjusts pending orders in response to changes in market conditions, ensuring that 
           the portfolio remains optimized at all times.
           <br /> <br />
-          To interact with the FlexEMarkets platform, CAPM Trading Bot utilizes the FMClient library. 
-          However, dealing with the asynchronous nature of interactions was a significant challenge that 
-          was addressed by implementing a robust system that keeps track of orders sent but not yet 
+          CAPM Trading Bot utilizes the FMClient library to interact with the FlexEMarkets platform, but 
+          dealing with the asynchronous nature of interactions was a significant challenge. This was 
+          addressed by implementing a robust system that keeps track of orders sent but not yet 
           acknowledged, enabling the bot to wait for server responses.
         </p>
       </div>
